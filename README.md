@@ -1,9 +1,5 @@
 # graduate-project
 
-
-scp qinf@rsync.tchpc.tcd.ie:~/NMF/NMF.c  qinf@chuck.tchpc.tcd.ie:~/NMF  
-scp qinf@chuck.tchpc.tcd.ie:~/NMF/NMF.c  qinf@rsync.tchpc.tcd.ie:~/NMF  
-
 serial:    
 	gcc NMFserial.c -std=c99 -o NMFserial  
 	./NMFserial  
